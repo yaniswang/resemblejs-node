@@ -17,6 +17,8 @@ Example
 
 Simple demo:
 
+    var resemble = require('resemble');
+
     var diff = resemble('old.png').compareTo('new.png').ignoreColors().onComplete(function(result){
         console.log(result);
         /*
@@ -35,6 +37,8 @@ Simple demo:
     });
 
 ES7 async demo:
+
+    const resemble = require('resemble');
 
     (async function(){
         let diff = resemble('old.png').compareTo('new.png').ignoreColors();

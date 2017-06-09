@@ -1,0 +1,35 @@
+{
+  "name": "resemblejs-node",
+  "version": "1.0.0",
+  "description": "Node port of Resemble.js.",
+  "homepage": "https://github.com/yaniswang/resemblejs-node",
+  "main": "./resemblejs",
+  "dependencies": {
+    "jpeg-js": "0.2.0",
+    "pngjs": "3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yaniswang/resemblejs-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaniswang/resemblejs-node/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "resemblejs",
+    "test",
+    "imgdiff",
+    "png",
+    "jpeg"
+  ],
+  "author": "Yanis Wang",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  }
+}
